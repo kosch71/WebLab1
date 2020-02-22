@@ -167,6 +167,39 @@ li .img-item{
   color: #f4ff1f;
   font-size: 1.3em;
 }
+
+.form {
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+select {
+	background: #fff;
+	border: none;
+	text-align: center;
+	padding: 9px;
+	font-size: 15px;
+	border-radius: 36px;
+}
+
+input {
+	background: #fff;
+	border: none;
+	text-align: center;
+	padding: 20px;
+	font-size: 15px;
+	border-radius: 36px;
+}
+
+textarea {
+	background: #fff;
+	border: none;
+	text-align: center;
+	font-size: 15px;
+	border-radius: 18px;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
