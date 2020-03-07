@@ -60,7 +60,7 @@ header .about ul li a:last-child {
 @media screen and (max-width: 720px){
 
     header {
-        height: 3.5em;
+        height: auto;
     }
 
     header > .logo,
