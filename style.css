@@ -147,7 +147,7 @@ header .about ul li a:last-child {
 
 .container {
   width: auto;
-  height: auto:
+  height: auto;
   padding-bottom: 10%;
   background: url(list.jpg);
   background-blend-mode: multiply;
@@ -156,7 +156,7 @@ header .about ul li a:last-child {
   background-position: center;
   color: #f4ff1f;
   text-align: center;
-  padding-top: 20%;
+  padding-top: 10%;
   font-size: 1.3em;
 
 }
