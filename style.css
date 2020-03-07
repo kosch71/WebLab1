@@ -183,14 +183,32 @@ li .img-item{
   max-height: 250px;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1200px){
+  .img-item{
+    flex-direction: row;
+    padding-top: 10px;
+    max-width: 200px;
+    height: 180px;
+  }
 
   .container h3{
-    font-size: 0.95em;
+    font-size: 0.85em;
   }
 
   .container h4{
-    font-size: 0.85em;
+    font-size: 0.75em;
+    padding-top: 10%;
+  }
+}
+
+@media screen and (max-width: 880px){
+
+  .container h3{
+    font-size: 0.78em;
+  }
+
+  .container h4{
+    font-size: 0.68em;
     padding-top: 10%;
   }
 
@@ -200,8 +218,8 @@ li .img-item{
 
   li .img-item {
     padding-top: 30px;
-    width: 180px;
-    height: 110px;
+    max-width: 200px;
+    height: 180px;
   }
 
 }
