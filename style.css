@@ -69,11 +69,12 @@ header .about ul li a:last-child {
         width: auto;
         display: inline-block;
         text-align: right;
-        font-size: 0.4em;
+        font-size: 0.5em;
 
     }
     header .about ul li {
-      display:block;
+      display: block;
+      margin: 7px 0;
     };
 
 
@@ -145,10 +146,9 @@ header .about ul li a:last-child {
 }
 
 .container {
-  width: 60%;
-  padding: 20%;
+  width: auto;
   height: auto;
-  background-image: url(list.jpg);
+  background: url(list.jpg);
   background-blend-mode: multiply;
   background-color: #2e3a44;
   background-size: cover;
@@ -166,6 +166,7 @@ header .about ul li a:last-child {
 .container ul.list{
   padding-right: 10px ;
   padding-left: 10px;
+
 }
 
 .container ul.list li  {
@@ -178,6 +179,7 @@ header .about ul li a:last-child {
 }
 
 li .img-item{
+  flex-direction: row;
   padding-top: 30px;
   width: 400px;
   height: 250px;
@@ -260,22 +262,22 @@ textarea {
 
 @media screen and (max-width:720px)  {
   .form-section{
-    font-size: 0.5em;
+    font-size: 15px;
   }
 
   select {
-    font-size: 8px;
+    font-size: 8px 0;
     text-align: center;
   }
 
   input {
-    font-size: 10px;
+    font-size: 10px 0;
   }
 
   textarea {
-    font-size: 7.5px;
+    font-size: 10px 0;
   }
-	
+
   .form-input {
     width: 100%;
   }

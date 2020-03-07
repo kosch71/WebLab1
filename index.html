@@ -53,15 +53,15 @@
     <section id="form-section" class="form-section">
         <h2>Заполните заявку прямо сейчас</h2>
   			  <form class="form-input" action="send.php" method="get">
-                <input type="text" placeholder="Имя" name="name">
-                <input type="text" placeholder="Е-mail" name="e-mail">
-                <select placeholder="Кинотеатр" name="city">
+                <label>Имя</label><input type="text" placeholder="Имя" name="name">
+                <label>e-mail</label><input type="text" placeholder="Е-mail" name="e-mail">
+                <label>Выберите кинотеатр </label><select placeholder="Кинотеатр" name="city">
                   <option>Выберите кинотеатр</option>
                   <option>Синема 5</option>
                   <option>Пик</option>
                   <option>Формула Кино</option>
                 </select>
-                <textarea rows="10" cols="45" name="text" placeholder="Комментарии и пожелания"></textarea>
+                <label>Комментарии и пожелания</label><textarea rows="10" cols="45" name="text" placeholder="Комментарии и пожелания"></textarea>
                 <input type="submit" value="Отправить">
           </form>
     </section>
