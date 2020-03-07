@@ -116,11 +116,11 @@ header .about ul li a:last-child {
 @media screen and (max-width: 720px){
 
     .intro{
-      font-size: 12px;
+      font-size: 15px;
 
     }
     .btn {
-      font-size: 12px;
+      font-size: 15px;
     }
     .intro h1 {
       padding-bottom: 10%;
